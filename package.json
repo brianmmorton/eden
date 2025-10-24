@@ -16,11 +16,7 @@
     "start": "npm run start --workspace=apps/api",
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
-    "type-check": "npm run type-check --workspaces",
-    "specs:validate": "node specs/tools/validate-specs.js",
-    "specs:coverage": "node specs/tools/spec-coverage.js",
-    "specs:index": "node specs/tools/generate-index.js",
-    "specs:all": "npm run specs:validate && npm run specs:coverage && npm run specs:index"
+    "type-check": "npm run type-check --workspaces"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",

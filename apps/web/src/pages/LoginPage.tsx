@@ -42,8 +42,8 @@ export function LoginPage() {
           </h1>
           <p className="text-muted-foreground mt-2">
             {isSignUp 
-              ? 'Join us to start your real estate journey' 
-              : 'Welcome back! Please sign in to your account'
+              ? 'Join us to start your learning journey' 
+              : 'Welcome back! Please sign in to your Eden account'
             }
           </p>
         </div>

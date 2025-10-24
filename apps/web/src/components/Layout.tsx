@@ -10,25 +10,16 @@ export default function Layout() {
       <header className="border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-primary">
-            RealEstate App
+            Eden
           </Link>
           
           <nav className="flex items-center space-x-4">
             <Link to="/" className="text-foreground hover:text-primary">
               Home
             </Link>
-            <Link to="/calculator/new" className="text-foreground hover:text-primary">
-              Calculator
-            </Link>
             
             {user ? (
               <>
-                <Link to="/dashboard" className="text-foreground hover:text-primary">
-                  Dashboard
-                </Link>
-                <Link to="/properties" className="text-foreground hover:text-primary">
-                  Properties
-                </Link>
                 <span className="text-sm text-muted-foreground">
                   {user.email}
                 </span>
